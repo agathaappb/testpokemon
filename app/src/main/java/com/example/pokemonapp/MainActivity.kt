@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         webview.settings.javaScriptEnabled = true
         webview.settings.mediaPlaybackRequiresUserGesture = true
         webview.setWebChromeClient(WebChromeClient())
-        webview.addJavascriptInterface(WebEventsClick(this),"AndroidTest")
-        webview.loadUrl("https://agathaappb.github.io/catpage.github.io/")
+        webview.addJavascriptInterface(WebEventsClick(this),"Android")
+        webview.loadUrl("http://myapplicationreact.s3-website-us-east-1.amazonaws.com/")
     }
 
 }
