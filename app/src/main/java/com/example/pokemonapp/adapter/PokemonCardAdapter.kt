@@ -1,4 +1,4 @@
-package com.example.pokemonapp
+package com.example.pokemonapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,12 +6,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import java.text.DateFormat
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.time.LocalDate
+import com.example.pokemonapp.PokemonModelRespose
+import com.example.pokemonapp.R
+import com.example.pokemonapp.mockPokemonResponse
 import java.time.LocalDateTime
-import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import java.util.*
 

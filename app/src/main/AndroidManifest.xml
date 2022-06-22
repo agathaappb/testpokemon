@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PokemonApp"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DetailsPokemonActivity"
+        <activity android:name=".ui.DetailsPokemonActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".MyFirebaseMessagingService"
+            android:name=".service.firebase.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
