@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.pokemonapp.ui.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pokemonapp.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_listPokemonFragment"
+            app:destination="@id/listPokemonFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listPokemonFragment"
+        android:name="com.example.pokemonapp.ui.ListPokemonFragment"
+        android:label="fragment_list_pokemon"
+        tools:layout="@layout/fragment_list_pokemon"/>
+    <activity
+        android:id="@+id/detailsPokemonActivity"
+        android:name="com.example.pokemonapp.ui.DetailsPokemonActivity"
+        android:label="activity_details_pokemon"
+        tools:layout="@layout/activity_details_pokemon" />
+
+
+
+</navigation>

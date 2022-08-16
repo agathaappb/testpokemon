@@ -1,4 +1,4 @@
-package com.example.pokemonapp
+package com.example.pokemonapp.webview
 
 import android.content.Context
 import android.webkit.JavascriptInterface

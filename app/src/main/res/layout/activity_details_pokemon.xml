@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailsPokemonActivity">
+    tools:context=".ui.DetailsPokemonActivity">
     <TextView
         android:id="@+id/text_name"
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:text="Name Pokemon"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/primaryDarkColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
          app:layout_constraintTop_toTopOf="parent"
