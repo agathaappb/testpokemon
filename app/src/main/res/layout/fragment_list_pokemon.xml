@@ -16,7 +16,7 @@
             android:text="ListPokemonFragment"
             android:textSize="20sp"
             android:textAlignment="center"
-            android:textColor="@color/teal_700"
+            android:textColor="@color/primaryDarkColor"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
